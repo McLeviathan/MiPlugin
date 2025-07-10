@@ -1,0 +1,27 @@
+name: MiPlugin
+main: mp.plugin1.MiPlugin
+version: 1.8.8
+author: alann
+description: "Plugin de ejemplo"
+commands:
+  miPlugin:
+    description: "Comandos principales"
+    usage: "/miPlugin [subcomando]"
+  experiencia:
+    description: "Dar experiencia"
+    usage: "/experiencia <cantidad> [jugador]"
+    aliases: [xp]
+  volar:
+    description: "Activar/desactivar vuelo"
+    usage: "/volar [jugador]"
+  menu:
+    description: "Comando /menu del plugin MiPlugin"
+    usage: "/menu"
+  memorygame:
+    description: "Iniciar el juego de memoria visual"
+    usage: "/memorygame"
+    aliases: [memoria]
+  droppergame:
+    description: "Iniciar el minijuego Dropper"
+    usage: "/droppergame"
+

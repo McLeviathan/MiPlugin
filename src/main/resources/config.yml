@@ -1,0 +1,13 @@
+# Configuracion del plugin
+messages:
+  prevent_block_break: "&cNo puedes romper bloques en este mundo"
+  welcome_message:
+    # define si esta activado o no el mensaje de bienvenida
+    enabled: true
+    message:
+      - "&a&m                                    "
+      - ""
+      - "&fBienvenido &b&l%player% &fal servidor!"
+      - "&fEspero disfrutes del Server!"
+      - ""
+      - "&a&m                                     "
