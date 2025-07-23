@@ -114,6 +114,8 @@ public class MainCommands implements CommandExecutor {
         sendMessage(sender, "&7- /miPlugin sword");
         sendMessage(sender, "&7- /miPlugin test &8(Debug)");
         sendMessage(sender, "&a&l➤ /menu &7- Menú principal de oleadas");
+        sendMessage(sender, "&6&l➤ /casino &7- Tragamonedas con premios");
+        sendMessage(sender, "&d&l➤ /conejo &7- Minijuego de perseguir al conejo");
         sendMessage(sender, "&f&l----- COMANDOS &c&lMIPLUGIN&c&l2&f&l -----");
     }
 

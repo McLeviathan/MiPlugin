@@ -3,6 +3,7 @@ main: mp.plugin1.MiPlugin
 version: 1.8.8
 author: alann
 description: "Plugin de ejemplo"
+api-version: 1.8
 commands:
   miPlugin:
     description: "Comandos principales"
@@ -24,4 +25,9 @@ commands:
   droppergame:
     description: "Iniciar el minijuego Dropper"
     usage: "/droppergame"
-
+  casino:
+    description: "Abre el casino de tragamonedas"
+    usage: "/casino"
+  conejo:
+    description: "Inicia el minijuego de perseguir al conejo"
+    usage: "/conejo"
